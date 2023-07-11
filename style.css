@@ -1,0 +1,45 @@
+body{
+    height: 95vh;
+    background-color: rgb(13, 59, 16);
+}
+
+.description{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.container{
+    height: 90vh;
+    margin: auto;
+}
+
+.game-board{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-one-board, .player-two-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+
+h1{
+    color: rgb(176, 240, 56);
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    margin-top: -10px;
+}
+    
