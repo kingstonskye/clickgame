@@ -1,12 +1,6 @@
 //Want a timer that counts down from 3.
-//Then starts a 10 second timer
-//When 10 second timer ends, dont allow inputs anymore
-//Winner is announced.
-
-//Want a timer that counts down from 3.
-//Then starts a 10 second timer
-//When 10 second timer ends, dont allow inputs anymore
-//Winner is announced.
+//Add a solo and competitive mode
+//navigation 
 
 const playerOneCount = document.getElementById("count-one");
 const playerTwoCount = document.getElementById("count-two");
