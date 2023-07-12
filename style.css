@@ -42,4 +42,15 @@ h2{
     color: white;
     margin-top: -10px;
 }
+
+button {
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  margin-top: 20%;
+  border-radius: 15%;
+  border: none;
+  background-color: smokegrey;
+  font-size: 1.5rem;
+}
     
