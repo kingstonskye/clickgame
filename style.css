@@ -1,7 +1,11 @@
+* {
+  font-family: 'VT323', monospace;
+}
+
 body{
     height: 95vh;
-    background: rgb(254,233,126);
-    background: linear-gradient(90deg, rgba(254,233,126,1) 0%, rgba(90,171,52,1) 100%);
+    background: #E5E5E5;
+    
 }
 
 .description{
@@ -11,8 +15,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-weight: 700;
+    background-color: white;
+    width: 40%;
+    padding: 3%;
+    border-radius: 60%;
+    border: 2px solid green;
 }
 
 .container{
@@ -32,8 +40,17 @@ body{
     justify-content: center;
     margin: auto;
     margin-top: 10%;
-    
+    font-size: 1.5rem;
 }
+
+#winner1, #winner2 {
+  font-size: 2rem;
+  color: #3D6FFF;
+  padding: 5%;
+  background-color: white;
+  border-radius: 15px;
+}
+    
 
 h1{
     color: black(176, 240, 56);
@@ -41,18 +58,28 @@ h1{
 
 h2{
     font-size: 3rem;
-    color: white;
+    color: green;
     margin-top: -10px;
+    font-size: 4rem;
 }
 
 button {
   padding: 15px;
   margin: auto;
   display: flex;
-  margin-top: 20%;
+  margin-top: 10%;
   border-radius: 15%;
   border: none;
   background-color: smokegrey;
   font-size: 1.5rem;
+  color: green;
+  border: 2px solid black;
 }
-    
+
+#Countdown {
+  margin-top: 5%;
+  color: white;
+  font-size: 3rem;
+}
+
+
